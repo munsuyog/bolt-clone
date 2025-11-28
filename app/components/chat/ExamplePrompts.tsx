@@ -1,12 +1,21 @@
 import React from 'react';
 
 const EXAMPLE_PROMPTS = [
-  { text: 'Create a mobile app about bolt.diy' },
-  { text: 'Build a todo app in React using Tailwind' },
-  { text: 'Build a simple blog using Astro' },
-  { text: 'Create a cookie consent form using Material UI' },
-  { text: 'Make a space invaders game' },
-  { text: 'Make a Tic Tac Toe game in html, css and js only' },
+  { text: 'Build a Beer Game supply chain management simulation' },
+  { text: 'Create a city management simulation with population, economy and resources' },
+  { text: 'Create a startup management simulation with hiring, burn rate and revenue' },
+  { text: 'Build a hospital management simulation with patients and staff scheduling' },
+  { text: 'Make a restaurant tycoon game with inventory, staff and customer flow' },
+  { text: 'Create a factory production line simulation with bottleneck detection' },
+  { text: 'Build a farm management simulation with crops, seasons and equipment' },
+  { text: 'Create an airport management simulation with flights, gates and delays' },
+  { text: 'Make a hotel management simulation with bookings, rooms and staff' },
+  { text: 'Build a logistics and fleet management simulation with routing optimization' },
+  { text: 'Create a retail store management simulation with demand forecasting' },
+  { text: 'Make a theme park management simulation with rides, visitors and finances' },
+  { text: 'Build an energy grid management simulation with power generation balancing' },
+  { text: 'Create a mining operation simulation with equipment, workers and yield' },
+  { text: 'Make a shipping port management simulation with cargo flow and cranes' },
 ];
 
 export function ExamplePrompts(sendMessage?: { (event: React.UIEvent, messageInput?: string): void | undefined }) {
